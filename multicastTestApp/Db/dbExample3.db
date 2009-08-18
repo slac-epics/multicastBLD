@@ -1,0 +1,19 @@
+record(stringin, "$(user):bldAddr")
+{
+	field(DESC, "Bld Addr")
+}
+
+record(stringin, "$(user):bldPort")
+{
+	field(DESC, "Bld Port")
+}
+
+record(stringin, "$(user):bldInterfaceIp")
+{
+	field(DESC, "Bld Interface IP")
+}
+
+record(stringin, "$(user):bldPvList")
+{
+	field(DESC, "Bld PV List")
+}
