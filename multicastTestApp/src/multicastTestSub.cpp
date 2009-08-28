@@ -217,7 +217,7 @@ int MulticastTestSub::readPV(const char *sVariableName, int iBufferSize, void* p
     	return 1;
     }
 	
-	if ( (unsigned int) pBuffer & 0x3 != 0  )
+	if ( (unsigned long) pBuffer & 0x3 != 0  )
 	{
 		printf( "readPV(): Buffer should be aligned in 32 bits boundaries\n" );
     	return 2;
